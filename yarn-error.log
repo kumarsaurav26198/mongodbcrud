@@ -1,0 +1,49 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js start
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\OpenJDK\openjdk-11.0.16_8\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\APEX-49\AppData\Local\Android\Sdk\platform-tools;C:\Users\APEX-49\AppData\Local\Android\Sdk;C:\Users\APEX-49\AppData\Local\Android\Sdk\emulator;C:\Users\APEX-49\AppData\Local\Android\Sdk\build-tools;C:\Users\APEX-49\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\APEX-49\AppData\Local\Yarn\bin;C:\Program Files\MongoDB\Server\5.0\bin;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\APEX-49\Desktop\Project\node\package.json: Unexpected token / in JSON at position 153
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "node",
+    "version": "1.0.0",
+    "description": "(learning node)",
+    "main": "index.js",
+    "scripts": {
+      "start": " nodemon insert.js"
+      // "start": " nodemon index.js"
+    },
+    "author": "magnet",
+    "license": "ISC",
+    "dependencies": {
+      "colors": "^1.4.0",
+      "express": "^4.18.1",
+      "mongodb": "^4.9.1",
+      "nodemon": "^2.0.19",
+      "simple-node-logger": "^21.8.12"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
